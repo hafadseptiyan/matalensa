@@ -1,0 +1,10 @@
+<div class="control-group" style="padding-left:20px">
+                                        <div class="fileupload fileupload-new" data-provides="fileupload">
+                                            <div class="fileupload-new thumbnail" style="width: 200px; height: 230px;"><img src="<?php echo base_url(); ?>assets/img/buku/<?php echo $hasil->gambar; ?>" alt="" /></div>
+                                            <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 150px; max-height: 200px; line-height: 20px;"></div>
+                                            <div>
+                                            <input type="file" class="default" name="gambar"/>
+                                                </span><a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
+											</div>
+                                        </div>
+                            </div>

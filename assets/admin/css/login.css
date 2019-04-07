@@ -1,0 +1,165 @@
+
+/* --------- 5. Banner area css starts -----------*/
+
+.banner-area{
+    background-image: url(../img/ban.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+}
+
+.banner-table{
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-text{
+    color: #ffffff;
+}
+
+.welcome-text h2 {
+    font-size: 3.8em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.text-affect,
+.typed-cursor {
+    display: inline;
+    font-size: 4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.3);
+}
+
+.banner-btn a {
+    background-color: #16a085eq;
+    color: #ffffff;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 991px){
+    .welcome-text{
+        text-align: center;
+        margin: 25px auto;
+    }
+}
+
+/* --------------  Banner area css ends --------------- */
+
+
+/* Card */
+.card {
+  box-sizing: border-box;
+    
+}
+
+.card .input-container {
+  position: relative;
+  margin: 0 60px 50px;
+}
+.card .input-container input {
+  outline: none;
+  z-index: 1;
+  position: relative;
+  background: none;
+  width: 100%;
+  height: 60px;
+  border: 0;
+  
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card .input-container input:focus ~ label {
+  color: #ffffff;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+          transform: translate(-12%, -50%) scale(0.75);
+}
+.card .input-container input:focus ~ .bar:before, .card .input-container input:focus ~ .bar:after {
+  width: 50%;
+}
+.card .input-container input:valid ~ label {
+  color: #ffffff;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+          transform: translate(-12%, -50%) scale(0.75);
+}
+.card .input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.card .input-container .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #757575;
+  width: 100%;
+  height: 1px;
+}
+.card .input-container .bar:before, .card .input-container .bar:after {
+  content: '';
+  position: absolute;
+  background: #0fb9b1;
+  width: 0;
+  height: 2px;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+.card .input-container .bar:before {
+  left: 50%;
+}
+.card .input-container .bar:after {
+  right: 50%;
+}
+
+.button {
+    border: 0px solid transparent; 
+    background: #0fb9b1;
+    color: #fff;
+    width:82%;
+    margin-left:0%; 
+    height: 40px;
+    margin-bottom: 32px;    
+}
+
+.btn {
+color:#fff;
+background-color: #EAB543;
+font-weight: 600;
+padding: 8px;
+}

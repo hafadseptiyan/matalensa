@@ -1,0 +1,70 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+    /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 35px 0;
+    }
+
+    .navbar-nav {
+        margin: 15px 0;
+    }
+
+    .navbar-brand {
+        padding: 20px 0;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 0;
+    }
+
+    .nav > li > a {
+        padding: 10px 8px;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #3498DB;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: 11px 21px;
+        margin-right: 32%;
+        display: inherit;
+        width: 200px;
+        background-color: transparent;
+    }
+
+    .navbar-nav li {
+        float: left;
+        margin: 9px 50px;
+        display: inherit;
+        width: 100%;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+    }
+
+   
+}
+

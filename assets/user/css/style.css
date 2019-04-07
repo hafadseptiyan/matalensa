@@ -1,0 +1,465 @@
+/*---------- 1. Default css starts ------------*/
+
+html,body{
+    height: 100%;
+}
+* { 
+box-sizing: border-box;
+font-family: segoe ui;
+}
+
+[class*="kolom"]
+{
+padding: 15px;
+float: left;
+}
+
+
+/* grid box */
+.kolom1{width:8.33%;}
+.kolom2{width:16.66%;}
+.kolom3{width:25%;}
+.kolom4{width:33.33%;}
+.kolom5{width:41.66%;}
+.kolom6{width:50%;}
+.kolom7{width:58.33%;}
+.kolom8{width:66.66%;}
+.kolom9{width:75%;}
+.kolom10{width:83.33%;}
+.kolom11{width:91.66%;}
+.kolom12{width:100%;}
+/* responsive hp */ 
+@media only screen and (max-width: 720px){
+    [class*="kolom"]
+    {
+        width: 100%;
+    }
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight:400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: none;
+}
+
+p {
+    letter-spacing: 0;
+    line-height:1.8;
+}
+
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:focus{
+    outline:none;
+    text-decoration: none;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.konten {
+    margin-top: 20px;
+}
+
+.boxCam {
+    height: 320px;
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+
+.boxCam:hover {
+   transition:all .3s linear;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.hov {
+    padding: 5px;
+    background-color: transparent;
+    border:2px solid #EAB543;;
+    margin-top:-10px;
+    width: 20%;
+}
+/*---------- Hover -------------*/
+
+
+
+/*---------- 3. Nav area css starts -------------*/
+
+.nav-area{
+    height: 65px;
+    box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
+
+}
+
+.nav-area.sticky_navigation{
+    background: #EAB543;
+    height: 55px;
+}
+
+.sticky_navigation{
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out ;
+    -ms-transition: all 0.4s ease-out ;
+    -o-transition: all 0.4s ease-out ;
+    transition: all 0.4s ease-out ;
+    -webkit-box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
+    box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
+}
+
+.sticky_navigation .main-menu{
+    margin-top: 0;
+}
+
+.sticky_navigation .navbar-brand, .sticky_navigation .navbar-brand span {
+    color: #ffffff;
+}
+
+.sticky_navigation .navbar-brand:hover, .sticky_navigation .navbar-brand:focus, .sticky_navigation .navbar-brand span {
+    color: #ffffff;
+}
+
+.sticky_navigation .nav li a {
+    color: #ffffff;
+}
+
+.sticky_navigation .nav li.active a{
+    color: #ffffff;
+}
+
+.sticky_navigation .navbar-brand:hover{
+    color: #fff;
+}
+
+.main-menu{
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    margin-top: 10px;
+}
+
+.navbar{
+    border:0;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: block;
+    color:#fff;
+    font-weight: 600;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-right li{
+    display: inline-block;
+    float: none;
+}
+
+.navbar-right li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-right li.active a{
+    
+    color: #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus{
+    background: none;
+}
+
+.navbar-toggle .icon-bar{
+    background: #777777;
+}
+
+/*---------- Nav area css ends -------------*/
+
+
+
+/* --------- 5. Banner area css starts -----------*/
+
+.banner-area{
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+}
+
+.banner-table{
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-text{
+    color: #ffffff;
+}
+
+.welcome-text h2 {
+    font-size: 3.8em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.text-affect,
+.typed-cursor {
+    display: inline;
+    font-size: 4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.3);
+}
+
+.banner-btn a {
+    background-color: #16a085eq;
+    color: #ffffff;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 991px){
+    .welcome-text{
+        text-align: center;
+        margin: 25px auto;
+    }
+}
+
+/* --------------  Banner area css ends --------------- */
+
+/*--------------11. Footer area starts -------------*/
+
+
+.footer-area {
+    background: #232323;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+/*--------------- Footer area ends -------------*/
+
+.box {
+  background-color: #fff;
+  margin-top: -10px;
+  margin:0px auto;
+  padding: 10px;
+  position: center;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.space {
+  margin-bottom: 50px;
+}
+
+/* Card */
+.card {
+  box-sizing: border-box;
+    
+}
+
+.card .input-container {
+  position: relative;
+  margin: 0 60px 50px;
+}
+.card .input-container input {
+  outline: none;
+  z-index: 1;
+  position: relative;
+  background: none;
+  width: 100%;
+  height: 60px;
+  border: 0;
+  
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card .input-container input:focus ~ label {
+  color: #9d9d9d;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+          transform: translate(-12%, -50%) scale(0.75);
+}
+.card .input-container input:focus ~ .bar:before, .card .input-container input:focus ~ .bar:after {
+  width: 50%;
+}
+.card .input-container input:valid ~ label {
+  color: #9d9d9d;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+          transform: translate(-12%, -50%) scale(0.75);
+}
+.card .input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.card .input-container .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #757575;
+  width: 100%;
+  height: 1px;
+}
+.card .input-container .bar:before, .card .input-container .bar:after {
+  content: '';
+  position: absolute;
+  background: #0fb9b1;
+  width: 0;
+  height: 2px;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+.card .input-container .bar:before {
+  left: 50%;
+}
+.card .input-container .bar:after {
+  right: 50%;
+}
+
+.button {
+    border: 0px solid transparent; 
+    background: #0fb9b1;
+    color: #fff;
+    width:82%;
+    margin-left:9%; 
+    height: 40px;
+    margin-bottom: 32px;    
+}
+
+.btn {
+color:#fff;
+background-color: #EAB543;
+font-weight: 600;
+padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
